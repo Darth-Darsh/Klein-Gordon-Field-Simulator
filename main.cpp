@@ -108,11 +108,11 @@ void stream_data_for_plotting(double time, const std::vector<double>& probs) {
 
 
 int main() {
-    const int N_SITES = 7;
+    const int N_SITES = 100;
     const double J_COUPLING = 1.0;   
     const double H_FIELD = 0.5;
     const double TOTAL_TIME = 100;
-    const double TIME_STEP = 1;
+    const double TIME_STEP = 0.1;
 
     // std::cout << "--- Simulating Klein-Gordon Field on a " << N_SITES << "-site lattice ---" << std::endl;
     // std::cout << "Hopping J = " << J_COUPLING << ", Mass h = " << H_FIELD << std::endl;
